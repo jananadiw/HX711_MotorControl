@@ -59,6 +59,7 @@ void loop() {
     /* read the most recent byte */
    //time = Serial.read();
   while(1){
+  //Set motor speed
     analogWrite (motorPin,30);
     delay(time); //motor runs in above speed for 5 mints
    
